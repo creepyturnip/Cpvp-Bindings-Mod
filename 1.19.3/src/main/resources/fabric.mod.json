@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "cbindm",
+	"version": "${version}",
+	"name": "CpvpBindMod",
+	"description": "Adds binds for your crystals and obsidian etc.",
+	"authors": [
+		"creepyturnip"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cbindm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+          "me.creepyturnip.binder.CpvpBinder"
+		]
+	},
+	"mixins": [
+		"cbindm.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

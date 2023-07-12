@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "me.creepyturnip.binder.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"UpdateMixin",
+		"MinecraftClientAcces"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
